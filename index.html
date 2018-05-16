@@ -58,7 +58,7 @@ function generate(){
    
     var pr=document.getElementById("pr").value
    
-    get("rsa.php?pr="+pr+"&t="+3+"&sid="+Math.random(),function(response){
+    get("rsa.php?pr="+pr+"&sid="+Math.random(),function(response){
         document.getElementById("targetDiv").innerHTML=response
     })
 }
