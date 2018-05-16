@@ -15,7 +15,7 @@ if(isset($_GET['pr'])){
 	$txt2=$rsa->enc($txt,"some password or signature here");
 	$disp.= "______Plain texte______:".'<br>'.$txt.'<br><br>';
     $disp.= "______Encrypted______:".'<br>'.$txt2.'<br><br>';
-	$txt3=$rsa->dec($txt2,"some password or signature her");
+	$txt3=$rsa->dec($txt2,"some password or signature here");
     $disp.= "______Decrypted______:".'<br>'.$txt3;
     echo $disp;
     
