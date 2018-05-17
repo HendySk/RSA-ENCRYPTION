@@ -10,8 +10,11 @@ Morocco._**
 In this project attempt was made to generate public and private keys(using php gmp library) and message signature (md5 Hash).
 
 To test the project:
+
 **Step1**: copy the project in your web directory.
+
 **Step2**: open index html in your browser.
+
 **Step3**: enter a bits number(2048 for example) in the text area and click OK.
 
 > **Note that php (with gmp extension enabled) is required.**
