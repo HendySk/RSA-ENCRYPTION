@@ -1,10 +1,10 @@
 # RSA ENCRYPTION DECRYPTION AND INSTANT KEYS GENERATION
 
-**__An RSA implementation with php gmp__**
+**_An RSA implementation with php gmp_**
 
-Hendy Soukaina.
+**_Hendy Soukaina.
 Tangier.
-Morocco.
+Morocco._**
 
 
 In this project attempt was made to generate public and private keys(using php gmp library) and message signature (md5 Hash).
