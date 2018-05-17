@@ -31,4 +31,4 @@ $rsa= new rsa(2048/*for example*/);
     $decryptedMessage=$rsa->dec($encryptedMessage,"some password or signature here"); //use the same password you choosed above.
     
     
-    a demo page is available here: http://rsademo.orgfree.com/
+    To see the code in action visit [the demo page](http://rsademo.orgfree.com/)
