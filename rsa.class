@@ -102,7 +102,7 @@ class rsa{
 		$r=gmp_random_range(1,strlen($output));
 		//signed message
 		$output=substr($output,0,(int)$r).$this->pwMd5($pw).substr($output,(int)$r);
-		return base64_encode($this->pwMd5($pw).$output);
+		return base64_encode($output);
     }
     
 	function dec($txt,$pw)
