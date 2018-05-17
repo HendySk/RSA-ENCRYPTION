@@ -19,7 +19,7 @@ if you want to use the rsa.class  in your project do the following:
 
 require("rsa.class");
 
-$rsa= new rsa(2048);//for example
+$rsa= new rsa(2048);//2048 is given as  example. Can bee 1024 or 4096 ...
 
 $rsa->generate();//generate rsa key pairs;
 
