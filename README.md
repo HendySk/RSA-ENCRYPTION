@@ -1,16 +1,18 @@
 # RSA-ENCRYPTION
-An RSA implementation with php gmp.
+**__An RSA implementation with php gmp.
 Hendy Soukaina.
 Tangier.
-Morocco.
+Morocco.__**
 
 
-In this project attempt was made to generate public and private keys and message signature (md5 Hash).
+In this project attempt was made to generate public and private keys(using php gmp library) and message signature (md5 Hash).
 
 To test the project:
-Step1: copy the project in your web directory.
-Step2: open index html in your browser.
-Step3: enter a bits number(2048 for example) in the text area and click OK.
+**Step1**: copy the project in your web directory.
+**Step2**: open index html in your browser.
+**Step3**: enter a bits number(2048 for example) in the text area and click OK.
+
+**Note that php (with gmp extension enabled) is required.**
 
 the application should generate and display apublic and private keys and use them to encrypt and decrypt a dummy text
 and display the result.
@@ -34,4 +36,4 @@ $msg="Lorem ipsum dolor Curabiturat dolor sollicitudin, tempus libero nec, tempo
     $encryptedMessage=$rsa->enc($msg,"some password or signature here"); //choose you password and set it as second parameter.
     $decryptedMessage=$rsa->dec($encryptedMessage,"some password or signature here"); //use the same password you choosed above.    
  
-  To see the code in action visit [the demo page](http://rsademo.orgfree.com/)
+  **To see the code in action visit [the demo page](http://rsademo.orgfree.com/)**
