@@ -20,8 +20,11 @@ if you want to use the rsa.class  in your project do the following:
 require("rsa.class");
 
 $rsa= new rsa(2048/*for example*/);
+
 $rsa->generate();//generate rsa key pairs;
+
 //dummy text;
+
 $msg="Lorem ipsum dolor Curabiturat dolor sollicitudin, tempus libero nec, tempor mauris. Nam finibus tempus arcu, in laoreet nisl tincidunt ac. Nam velit sapien, sagittis sit amet arcu vehicula, pulvinar vehicula justo. Mauris facilisis lacus quam, eget hendrerit lectus imperdiet vel. Morbi vulputate eros quam, eget scelerisque urna gravida eget. Curabitur imperdiet odio sit amet sagittis ornare. Donec semper quam vel posuere scelerisque. Fusce in efficitur justo. Aliquam blandit, augue scelerisque eleifend ornare, libero arcu interdum metus, vitae bibendum elit felis quis quam. Nulla sed elementum diam, non dictum massa. Donec dictum eleifend mi ac laoreet.";
     
     $rsa->t //returns Total execution time in seconds. (echo "Total execution time ".$rsa->t).
