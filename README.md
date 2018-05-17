@@ -28,7 +28,6 @@ $rsa= new rsa(2048/*for example*/);
     $rsa->n //returns the Modulus (also refered to as public key).
     $rsa->d //Private Exponent (also refered to as private key).
     $encryptedMessage=$rsa->enc($msg,"some password or signature here"); //choose you password and set it as second parameter.
-    $decryptedMessage=$rsa->dec($encryptedMessage,"some password or signature here"); //use the same password you choosed above.
-    
-    
-    To see the code in action visit [the demo page](http://rsademo.orgfree.com/)
+    $decryptedMessage=$rsa->dec($encryptedMessage,"some password or signature here"); //use the same password you choosed above.    
+ 
+  To see the code in action visit [the demo page](http://rsademo.orgfree.com/)
