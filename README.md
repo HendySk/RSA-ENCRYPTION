@@ -13,7 +13,7 @@ To test the project:
 
 **Step1**: copy the project in your web directory.
 
-**Step2**: open index html in your browser.
+**Step2**: open index.html in your browser.
 
 **Step3**: enter a bits number(2048 for example) in the text area and click OK.
 
