@@ -19,7 +19,7 @@ To test the project:
 
 > **Note that php (with gmp extension enabled) is required.**
 
-the application should generate and display apublic and private keys and use them to encrypt and decrypt a dummy text
+the application should generate and display a public and private keys and use them to encrypt and decrypt a dummy text($msg below)
 and display the result.
 
 if you want to use the rsa.class  in your project do the following:
