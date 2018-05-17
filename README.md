@@ -1,9 +1,10 @@
 # RSA ENCRYPTION DECRYPTION AND INSTANT KEYS GENERATION
 
-**__An RSA implementation with php gmp.
+**__An RSA implementation with php gmp__**
+
 Hendy Soukaina.
 Tangier.
-Morocco.__**
+Morocco.
 
 
 In this project attempt was made to generate public and private keys(using php gmp library) and message signature (md5 Hash).
@@ -13,7 +14,7 @@ To test the project:
 **Step2**: open index html in your browser.
 **Step3**: enter a bits number(2048 for example) in the text area and click OK.
 
-**Note that php (with gmp extension enabled) is required.**
+> **Note that php (with gmp extension enabled) is required.**
 
 the application should generate and display apublic and private keys and use them to encrypt and decrypt a dummy text
 and display the result.
